@@ -1,0 +1,48 @@
+.container{
+    margin: auto;
+    width: 960px;
+}
+
+.conteudo{
+    justify-content: center;
+    text-align: center;
+
+}
+
+.imagem{
+    display: table-cell;
+    position: fixed;
+    left: 600px;
+    top: 160px;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    display: table-cell;
+    text-align: right;
+    position: fixed;
+    top: 180px;
+}
+
+button{
+    height: 60px;
+    width: 100px;
+    border: 0;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    color: rgb(0, 0, 0);
+    background-color: rgb(163, 122, 201);
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(159, 97, 218);
+}
+
+body{
+    background-image:linear-gradient(to bottom right, rgb(183, 169, 238),rgb(179, 227, 235)) ;
+    background-attachment: fixed;
+    width:auto;
+}
